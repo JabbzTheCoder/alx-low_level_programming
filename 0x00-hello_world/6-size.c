@@ -1,7 +1,8 @@
 #include<stdio.h>
-/*
- * main - A program that prints the sizes of each tye in C
- * Return 0 (Success)
+/**
+ *main - Entry point
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
