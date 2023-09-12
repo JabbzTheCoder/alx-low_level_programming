@@ -11,9 +11,9 @@ int main(void)
 
 	int len;
 
-	len = strlen(str);
-
 	int i;
+
+	len = strlen(str);
 
 	for (i = 0; i < len; i++)
 	{
