@@ -1,12 +1,25 @@
-#include <stdio.h>
+#include "main.h"
+#include <string.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints _putchar
+ * is written by JabbzTheCoder
+ * Return 0
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char str[] = "_putchar";
+
+	int len;
+
+	len = strlen(str);
+
+	int i;
+
+	for (i = 0; i < len; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 
 	return (0);
 }
