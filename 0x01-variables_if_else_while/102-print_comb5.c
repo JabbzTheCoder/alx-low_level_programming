@@ -6,29 +6,33 @@
  */
 
 int main(void)
-{
-	int i;
+{	
+	int num1;
 
-       	for (i = 0; i <= 99; i++)
+	for (num1 = 0; num1 <= 99; num1++)
 	{
-		int j;
+		for (int num2 = num1 + 1; num2 <= 99; num2++) {
+            // Print the first two-digit number
+            putchar((num1 / 10) + '0');
+            putchar((num1 % 10) + '0');
 
-		for (j = i; j <= 99; j++)
-		{
-			putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
-			putchar(' ');
-			putchar((j / 10) + '0');
-			
-			putchar((j % 10) + '0');
-			
-			if (i != 99 || j != 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
-	putchar('\n');
+            // Print a space to separate the numbers
+            putchar(' ');
+
+            // Print the second two-digit number
+            putchar((num2 / 10) + '0');
+            putchar((num2 % 10) + '0');
+
+            // Print ", " after the combination if it's not the last one
+            if (num1 != 98 || num2 != 99) {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+    }
+
+    // Print a newline character to end the output
+    putchar('\n');
+
 	return (0);
 }
