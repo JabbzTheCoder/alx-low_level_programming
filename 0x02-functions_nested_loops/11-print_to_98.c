@@ -13,7 +13,7 @@ void print_to_98(int n)
 	{
 		for (i = n ; i >= 98; i--)
 		{
-			if (i > 100 && i < 1000)
+			if (i >= 100 && i < 1000)
 			{
 				hundreds = i / 100;
 				tens = (i / 10) % 10;
@@ -66,7 +66,7 @@ void print_to_98(int n)
                                 }
                                 else
                                 {
-					_putchar(i);
+					_putchar(i + '0');
                                 }
 			}
 			if (i != 98)
