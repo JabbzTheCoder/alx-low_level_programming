@@ -12,7 +12,7 @@ void puts_half(char *s)
 
 	if (fullLen % 2 == 0)
 	{
-		start = fullLen / 2;
+		start = (fullLen -1)  / 2;
 	}
 	else
 	{
