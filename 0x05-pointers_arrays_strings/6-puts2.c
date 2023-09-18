@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _puts2 - check the code
+ * puts2 - check the code
  *
  *@s: string to be printed.
  */
-void _puts2(char *s)
+void puts2(char *s)
 {
 	int n = 2;
 
