@@ -6,7 +6,7 @@
  * *_strncpy - check the code
  * @dest: destination
  * @src: source
- * @n: len 
+ * @n: len
  * Return: Always 0.
  */
 
