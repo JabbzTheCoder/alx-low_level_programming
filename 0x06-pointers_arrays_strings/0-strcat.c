@@ -2,15 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * *_strncat - check the code
+ * *_strcat - check the code
  *
  * @dest:destination
  * @src:source
- * 
  * Return: Always 0.
  */
 
-char *_strncat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	strcat(dest, src);
 
