@@ -6,11 +6,11 @@
  * _strchr - locates a character
  *
  * @s: s
- * @c: c 
+ * @c: c
  * Return: Nothing.
  */
 
-char *_strchr(s, c)
+char *_strchr(char *s, char c)
 {
 
 	return (strchr(s, c));
