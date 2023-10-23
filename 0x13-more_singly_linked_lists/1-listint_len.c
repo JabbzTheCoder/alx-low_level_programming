@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * size_t listint_len(const listint_t *h) - Prints all elements of a listint_t list.
+ * listint_len - Prints all elements of a listint_t list.
  * @h: A pointer to the head of the list.
  * Return: The number of nodes in the list.
  */
